@@ -15,12 +15,18 @@ You can install the development version of geneGPT from [GitHub](https://github.
 devtools::install_github("jmezallamosas/geneGPT")
 ```
 
+## OPENAI API Key
+
+You can create an API key in [OPENAI Platform](https://platform.openai.com/api-keys) after logging into your account.
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(geneGPT)
-## basic example code
+## genes = gene_annotation(c("VIM", "CDH1", "TWIST1"))
+## signal = markers("EMT Transition", 5)
+## answer = chat("Could you give me a biological interpreation of VIM, CDH1, TWIST1 being upregulated in cancer?")
 ```
 
