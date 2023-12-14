@@ -34,14 +34,17 @@ devtools::install_github("jmezallamosas/geneGPT")
     touch ~/.Renviron
     ```
 4. If you receive the following message:
-       ``` r
-       OPENAI_API_KEY added to .Renviron successfully.
-       ```
+   ``` r
+   OPENAI_API_KEY added to .Renviron successfully.
+   ```
 
    Run the following command to source your .Renviron file:
-       ``` r
-        readRenviron("~/.Renviron")
-       ```
+   ``` r
+   readRenviron("~/.Renviron")
+   ```
+
+   You are all set to run some of the example code!
+   
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
