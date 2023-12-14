@@ -15,7 +15,7 @@ You can install the development version of geneGPT from [GitHub](https://github.
 devtools::install_github("jmezallamosas/geneGPT")
 ```
 
-## OPENAI API Key
+## OpenAI API Key
 
 You can create an API key in [OPENAI Platform](https://platform.openai.com/api-keys) after logging into your account.
 
