@@ -15,10 +15,14 @@ You can install the development version of geneGPT from [GitHub](https://github.
 devtools::install_github("jmezallamosas/geneGPT")
 ```
 
-## OpenAI API Key
+## Set up
 
-You can create an API key in [OpenAI Platform](https://platform.openai.com/api-keys) after logging into your account.
+1. Create an API key in [OpenAI Platform](https://platform.openai.com/api-keys) after logging into your account.
 
+2. Add your API key to your R environment file (.Renviron)
+  ``` r
+  add_openai_key_to_renv(<YOUR_KEY>)
+  ```
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
