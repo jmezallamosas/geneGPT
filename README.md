@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of geneGPT is to ...
+GeneGPT is an R wrapper for ChatGPT 4.0 with default functions to call gene anotations and markers for biological processes.
 
 ## Installation
 
