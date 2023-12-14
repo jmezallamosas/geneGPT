@@ -1,0 +1,13 @@
+Package: geneGPT
+Type: Package
+Title: Gene GPT
+Version: 0.1.0
+Author: Jose Meza Llamosas
+Maintainer: The package maintainer <mezallamosas.j@northeastern.edu>
+Description: ChatGPT R wrapper with functions to query gene function anotations and markers for biological processes.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    httr2
