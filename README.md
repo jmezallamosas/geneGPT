@@ -17,7 +17,7 @@ devtools::install_github("jmezallamosas/geneGPT")
 
 ## OpenAI API Key
 
-You can create an API key in [OPENAI Platform](https://platform.openai.com/api-keys) after logging into your account.
+You can create an API key in [OpenAI Platform](https://platform.openai.com/api-keys) after logging into your account.
 
 ## Example
 
