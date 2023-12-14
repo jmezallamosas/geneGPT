@@ -20,17 +20,27 @@ devtools::install_github("jmezallamosas/geneGPT")
 1. Create an API key in [OpenAI Platform](https://platform.openai.com/api-keys) after logging into your account.
 
 2. Add your API key to your R environment file (.Renviron)
-  ``` r
-  add_openai_key_to_renv(<YOUR_KEY>)
-  ```
+    ``` r
+    library(geneGPT)
+    add_openai_key_to_renv(<YOUR_KEY>)
+    ```
+3. If you receive the following error message:
+     ``` r
+     .Renviron file not found. Please create the .Renviron file first.
+     ```
+
+   Run the following line of code in the terminal:
+    ``` 
+    touch ~/.Renviron
+    ```
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(geneGPT)
-## genes = gene_annotation(c("VIM", "CDH1", "TWIST1"))
-## signal = markers("EMT Transition", 5)
-## answer = chat("Could you give me a biological interpreation of VIM, CDH1, TWIST1 being upregulated in cancer?")
+genes = gene_annotation(c("VIM", "CDH1", "TWIST1"))
+signal = markers("EMT Transition", 5)
+answer = chat("Could you give me a biological interpreation of VIM, CDH1, TWIST1 being upregulated in cancer?")
 ```
 
